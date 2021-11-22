@@ -5,7 +5,7 @@ const Products= require('../models/products');
 module.exports.enlist= async function(req, res){
     try{
         let products= await Products.find({});
-        console.log(products);
+
         return res.json(200,{
             message: "Product List",
             data:{
@@ -54,7 +54,6 @@ module.exports.destroy= async function(req, res){
     try{
         let product= await Products.findById(req.params.id);
         product.remove();
-        console.log(product);
         return res.json(200,{
             message: 'Product deleted successfully',
         })
@@ -73,8 +72,6 @@ module.exports.update= async function(req, res){
     try{
         // let products= await Products.find({});
         let product= await Products.findById(req.params.id);
-        console.log(product);
-        console.log(req.query.number);
 
         product.quantity= product.quantity + parseInt(req.query.number);
         await product.save();

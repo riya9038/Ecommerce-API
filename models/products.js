@@ -2,6 +2,7 @@ const mongoose= require('mongoose');
 
 //creating product Schema
 const productSchema= mongoose.Schema({
+
         id:{
             type: Number,
             required: true
@@ -14,6 +15,8 @@ const productSchema= mongoose.Schema({
             type: Number,
             required: true
         }
+},{
+    timestamps: true
 })
 
 const Products= mongoose.model('Products', productSchema);
