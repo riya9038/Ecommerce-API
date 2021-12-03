@@ -8,7 +8,6 @@
 # Problem Statement
 
 Design an API for an ecommerce platform admin to manage product inventory.
-
 <br>
 
 # Features Required
@@ -22,7 +21,7 @@ Design an API for an ecommerce platform admin to manage product inventory.
 - <b>`LIST THE PRODUCTS`</b> <br>
 
   -API to list products<br>
-  -URL [GET] : /products alarms list below
+  -URL [GET] : /products
   
 - <b>`UPDATING THE QUANTITY OF PRODUCTS`</b> <br>
 
