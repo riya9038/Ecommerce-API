@@ -13,7 +13,7 @@ Design an API for an ecommerce platform admin to manage product inventory.
 
 # Features Required
 
-- ######<b>CREATING NEW PRODUCTS</b><br>
+- <b>######`CREATING NEW PRODUCTS`</b><br>
 
    -API to add products to the database<br>
    -URL [POST]: /products/create
