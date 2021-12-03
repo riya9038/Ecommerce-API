@@ -13,24 +13,24 @@ Design an API for an ecommerce platform admin to manage product inventory.
 
 # Features Required
 
-- <b>######`CREATING NEW PRODUCTS`</b><br>
+- <b>`CREATING NEW PRODUCTS`</b><br>
 
    -API to add products to the database<br>
    -URL [POST]: /products/create
 
 
-- <b>LIST THE PRODUCTS</b> <br>
+- <b>`LIST THE PRODUCTS`</b> <br>
 
   -API to list products<br>
   -URL [GET] : /products alarms list below
   
-- <b>UPDATING THE QUANTITY OF PRODUCTS</b> <br>
+- <b>`UPDATING THE QUANTITY OF PRODUCTS`</b> <br>
 
   -API to update quantity of a product (can be incremented or decremented)<br>
   -URL [POST] : /products/:id/update_quantity/?number=10
 
  
-- <b>DELETING PRODUCTS</b> <br>
+- <b>`DELETING PRODUCTS`</b> <br>
 
   -API to delete products<br>
   -URL [DELETE] : /products/:id
